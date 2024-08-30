@@ -1,0 +1,98 @@
+.add {
+  display: flex;
+  justify-content: center;
+  background-color: #261046;
+
+  .box {
+    width: 1400px;
+    padding: 50px 0px;
+
+    h1 {
+      width: max-content;
+      margin-bottom: 30px;
+      color: white;
+      font-weight: 300;
+    }
+
+    .sections {
+      display: flex;
+      justify-content: space-between;
+      gap: 100px;
+
+      label {
+        color: white;
+        font-size: 18px;
+      }
+
+      .info>form,
+      .details {
+        width: 40vw;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: space-between;
+
+        input,
+        select,
+        textarea {
+          border-radius: 10px;
+          background-color: white;
+          font-weight: bold;
+          padding: 20px;
+          box-shadow: inset 10px 10px 10px rgba(21, 1, 248, 0.3);
+        }
+
+        .images{
+          display: flex;
+          align-items: center;
+          gap: 20px;
+
+          .imagesInputs{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+          }
+        }
+
+        button {
+          border: none;
+          padding: 20px;
+          color: white;
+          font-weight: 500;
+          font-size: 18px;
+          background-color: #1E88E5;
+          cursor: pointer;
+        }
+        button:hover{
+          background-color: #004f94;
+        }
+
+        .add{
+          display: flex;
+          justify-content: space-between;
+
+          input{
+            width: 80%;
+          }
+        }
+
+        .addedFeatures{
+          display: flex;
+          gap: 20px;
+
+          button{
+            height: 30px;
+            font-size: 12px;
+            font-weight: 400;
+            background: transparent;
+            color: red;
+            border: 1px solid red;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+          }
+        }
+      }
+    }
+  }
+}
